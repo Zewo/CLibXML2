@@ -19,7 +19,7 @@ brew link --force libxml2
 
 - Linux
 ```
-$ apt-get install libxml2-dev 
+$ apt-get install libxml2-dev
 ```
 
 - Add `CLibXML2` to your `Package.swift`
