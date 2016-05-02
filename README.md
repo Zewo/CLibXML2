@@ -6,7 +6,7 @@ CLibXML2
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](http://slack.zewo.io)
 
-**[LibXML2](http://www.xmlsoft.org/)** for **Swift 2.2**.
+**[LibXML2](http://www.xmlsoft.org/)** for **Swift 3.0**.
 
 ## Installation
 
@@ -29,22 +29,16 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/CLibXML2.git", majorVersion: 0, minor: 1)
+		.Package(url: "https://github.com/Zewo/CLibXML2.git", majorVersion: 0, minor: 6)
 	]
 )
 
 ```
 
-- Build on OSX
+- Build
 
 ```bash
-$ swift build -Xcc -I/usr/local/include -Xcc -I/usr/local/include/libxml2 -Xlinker -L/usr/local/lib/
-```
-
-- Build on Linux
-
-```bash
-$ swift build -Xcc -I/usr/include/libxml2
+$ swift build
 ```
 
 ## Community
